@@ -1,0 +1,9 @@
+services:
+  urban-terror-maps:
+    build: .
+    container_name: urban-terror-maps
+    ports:
+      - "8777:8777"
+    volumes:
+      - ./votes.json:/app/votes.json
+    restart: unless-stopped

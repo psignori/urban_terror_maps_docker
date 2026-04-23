@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Urban Terror Maps</title>
+<style>
+* { box-sizing: border-box; }
+
+body {
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 { margin-bottom: 20px; }
+
+/* ── Referência de modos ── */
+.modes-reference {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+}
+
+.modes-reference h2 {
+    color: #ff6b35;
+    margin: 0 0 15px;
+    font-size: 18px;
+}
+
+.modes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.mode-badge {
+    background: #2a2a2a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 8px 14px;
+    text-align: left;
+    min-width: 155px;
+}
+
+.mode-badge .code  { color: #ff6b35; font-weight: bold; font-size: 13px; }
+.mode-badge .name  { font-size: 11px; color: #ccc; display: block; }
+.mode-badge .desc  { font-size: 10px; color: #666; display: block; margin-top: 2px; }
+.mode-badge .total { font-size: 10px; color: #ff6b35; display: block; margin-top: 4px; font-weight: bold; min-height: 14px; }
+
+/* ── Grid de mapas ── */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map {
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.map:hover {
+    transform: scale(1.05);
+    border-color: #ff6b35;
+    box-shadow: 0 0 12px rgba(255,107,53,0.35);
+}
+
+.map img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.map .map-name {
+    display: block;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.map .map-votes {
+    padding: 5px 8px 7px;
+    font-size: 10px;
+    color: #aaa;
+    background: #1a1a1a;
+    min-height: 32px;
+    line-height: 1.5;
+}
+
+.map .map-votes .top-mode { color: #ff6b35; font-weight: bold; }
+
+/* ── Modal ── */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay.active { display: flex; }
+
+.modal {
+    background: #1a1a1a;
+    border-radius: 16px;
+    padding: 25px;
+    width: 90%;
+    max-width: 580px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 1px solid #333;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.modal-header img {
+    width: 110px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.modal-header h3 { margin: 0; font-size: 20px; color: #ff6b35; }
+.modal-header small { color: #777; font-size: 12px; }
+
+.modal-modes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+    gap: 10px;
+}
+
+.modal-mode-btn {
+    background: #2a2a2a;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+
+.modal-mode-btn:hover { background: #333; border-color: #ff6b35; }
+.modal-mode-btn .code { color: #ff6b35; font-weight: bold; font-size: 14px; display: block; }
+.modal-mode-btn .name { font-size: 11px; color: #ccc; display: block; margin-top: 2px; }
+.modal-mode-btn .desc { font-size: 10px; color: #666; display: block; margin-top: 2px; }
+
+.modal-mode-btn .vote-pill {
+    display: inline-block;
+    background: #ff6b35;
+    color: #111;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.modal-close {
+    background: #2a2a2a;
+    border: 1px solid #333;
+    color: #aaa;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 18px;
+    font-size: 13px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.modal-close:hover { background: #333; color: #fff; }
+
+/* ── Passo de gear (step 2 do modal) ── */
+.gear-header-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+.back-btn {
+    background: #2a2a2a;
+    border: 1px solid #555;
+    color: #aaa;
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+.back-btn:hover { background: #333; color: #fff; }
+.gear-mode-title { color: #ff6b35; font-weight: bold; font-size: 15px; }
+
+/* ── Toast ── */
+.toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: #ff6b35;
+    color: #111;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    z-index: 2000;
+    transition: transform 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+/* ── Botão gerar mapcycle ── */
+.btn-mapcycle {
+    background: #ff6b35;
+    color: #111;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 28px;
+    transition: 0.2s;
+    letter-spacing: 0.5px;
+}
+.btn-mapcycle:hover { background: #e8552a; transform: scale(1.04); }
+
+.btn-reset {
+    background: transparent;
+    color: #e84040;
+    border: 2px solid #e84040;
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 28px;
+    margin-left: 12px;
+    transition: 0.2s;
+    letter-spacing: 0.5px;
+}
+.btn-reset:hover { background: #e84040; color: #fff; transform: scale(1.04); }
+
+/* ── Responsive ── */
+@media (max-width: 1200px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 768px)  {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .modes-grid { justify-content: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<h1>🗺️ Urban Terror Maps</h1>
+
+<!-- Referência de modos -->
+<div class="modes-reference">
+    <h2>Modos de Jogo — clique em um mapa para votar</h2>
+    <div class="modes-grid" id="modes-reference"></div>
+</div>
+
+<!-- Botões de ação -->
+<button class="btn-mapcycle" onclick="gerarMapcycle()">⬇️ Gerar mapcycle.txt (Top 7)</button>
+<button class="btn-reset" onclick="zerarVotacao()">🗑️ Zerar votação</button>
+
+<!-- Grid de mapas -->
+<div class="grid" id="maps-grid"></div>
+
+<!-- Modal de votação -->
+<div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+        <div class="modal-header">
+            <img id="modal-img" src="" alt="">
+            <div>
+                <h3 id="modal-name"></h3>
+                <small>Escolha o modo para registrar seu voto</small>
+            </div>
+        </div>
+        <div class="modal-modes" id="modal-modes"></div>
+        <div id="modal-gear-step" style="display:none"></div>
+        <button class="modal-close" onclick="closeModal()">✕ Fechar</button>
+    </div>
+</div>
+
+<!-- Toast de confirmação -->
+<div class="toast" id="toast"></div>
+
+<script>
+const MODES = [
+    { code: 'LMS',    name: 'Last Man Standing', desc: 'O último vivo vence a rodada' },
+    { code: 'FFA',    name: 'Free for All',       desc: 'Todos contra todos, sem equipes' },
+    { code: 'TDM',    name: 'Team Deathmatch',    desc: 'Duas equipes se eliminam' },
+    { code: 'TS',     name: 'Team Survivor',      desc: 'Elimine toda a equipe adversária' },
+    { code: 'FTL',    name: 'Follow the Leader',  desc: 'Mate o líder para pontuar' },
+    { code: 'CNH',    name: 'Capture & Hold',     desc: 'Capture e defenda zonas do mapa' },
+    { code: 'CTF',    name: 'Capture the Flag',   desc: 'Roube a bandeira adversária' },
+    { code: 'BM',     name: 'Bomb & Defuse',      desc: 'Plante ou desarme a bomba' },
+    { code: 'JUMP',   name: 'Jump Mode',           desc: 'Parkour — chegue ao fim do percurso' },
+    { code: 'FT',  name: 'Freeze Tag', desc: 'Congele inimigos; aliados descongelam' },
+    { code: 'GUN', name: 'Gun Game',   desc: 'Elimine com cada arma para progredir' },
+];
+
+const MAPS = [
+    { name: 'Abbey',      img: 'imgs/Abbey.jpg' },
+    { name: 'Austria',    img: 'imgs/Austria.jpg' },
+    { name: 'Casa',       img: 'imgs/Casa.jpg' },
+    { name: 'Docks',      img: 'imgs/Docks.jpg' },
+    { name: 'Eagle',      img: 'imgs/Eagle.jpg' },
+    { name: 'Elgin',      img: 'imgs/Elgin.jpg' },
+    { name: 'Ghosttown',  img: 'imgs/Ghosttown.jpg' },
+    { name: 'Killroom',   img: 'imgs/Killroom.jpg' },
+    { name: 'Kingdom',    img: 'imgs/Kingdom.jpg' },
+    { name: 'Kingpin',    img: 'imgs/Kingpin.jpg' },
+    { name: 'Mandolin',   img: 'imgs/Mandolin.jpg' },
+    { name: 'Mykonos',    img: 'imgs/Mykonos.jpg' },
+    { name: 'Oildepot',   img: 'imgs/Oildepot.jpg' },
+    { name: 'Paris',      img: 'imgs/Paris.jpg' },
+    { name: 'Prague',     img: 'imgs/Prague.jpg' },
+    { name: 'Prominence', img: 'imgs/Prominence.jpg' },
+    { name: 'Ricochet',   img: 'imgs/Ricochet.jpg' },
+    { name: 'Riyadh',     img: 'imgs/Riyadh.jpg' },
+    { name: 'Sanctuary',  img: 'imgs/Sanctuary.jpg' },
+    { name: 'Suburbs',    img: 'imgs/Suburbs.jpg' },
+    { name: 'Subway',     img: 'imgs/Subway.jpg' },
+    { name: 'Swim',       img: 'imgs/Swim.jpg' },
+    { name: 'Thingley',   img: 'imgs/Thingley.jpg' },
+    { name: 'Tombs',      img: 'imgs/Tombs.jpg' },
+    { name: 'Turnpike',   img: 'imgs/Turnpike.jpg' },
+    { name: 'Uptown',     img: 'imgs/Uptown.jpg' },
+];
+
+// votes[mapName][modeCode] = número de votos (espelho local do servidor)
+const votes = {};
+MAPS.forEach(m => { votes[m.name] = {}; });
+
+let toastTimer = null;
+
+// ── Carrega votos existentes do servidor ──
+async function carregarVotos() {
+    try {
+        const res  = await fetch('/votes');
+        const data = await res.json();
+        Object.entries(data).forEach(([mapName, modos]) => {
+            if (!votes[mapName]) { votes[mapName] = {}; }
+            Object.assign(votes[mapName], modos);
+        });
+        MAPS.forEach(m => updateMapCard(m.name));
+        updateModesReference();
+    } catch (e) {
+        console.warn('Não foi possível carregar votos do servidor:', e);
+    }
+}
+
+// ── Renderiza referência de modos ──
+function renderModesReference() {
+    document.getElementById('modes-reference').innerHTML = MODES.map(m => `
+        <div class="mode-badge">
+            <span class="code">${m.code}</span>
+            <span class="name">${m.name}</span>
+            <span class="desc">${m.desc}</span>
+            <span class="total" id="ref-${m.code}"></span>
+        </div>
+    `).join('');
+}
+
+// ── Renderiza grid de mapas ──
+function renderMapsGrid() {
+    document.getElementById('maps-grid').innerHTML = MAPS.map(m => `
+        <div class="map" onclick="openModal('${m.name}')">
+            <img src="${m.img}" alt="${m.name}" loading="lazy">
+            <span class="map-name">${m.name}</span>
+            <div class="map-votes" id="votes-${m.name}">
+                <span style="color:#444">Sem votos ainda</span>
+            </div>
+        </div>
+    `).join('');
+}
+
+// ── Abre modal ──
+function openModal(mapName) {
+    const mapData = MAPS.find(m => m.name === mapName);
+
+    document.getElementById('modal-img').src = mapData.img;
+    document.getElementById('modal-name').textContent = mapName;
+
+    document.getElementById('modal-gear-step').style.display = 'none';
+    document.getElementById('modal-gear-step').innerHTML = '';
+    document.getElementById('modal-modes').style.display = '';
+    document.getElementById('modal-modes').innerHTML = MODES.map(m => {
+        const count = Object.entries(votes[mapName] || {})
+            .filter(([k]) => k === m.code || k.startsWith(m.code + '_'))
+            .reduce((s, [, v]) => s + v, 0);
+        return `
+            <button class="modal-mode-btn" onclick="selectMode('${mapName}', '${m.code}')">
+                <span class="code">${m.code}</span>
+                <span class="name">${m.name}</span>
+                <span class="desc">${m.desc}</span>
+                <span class="vote-pill">${count > 0 ? count + ' voto' + (count !== 1 ? 's' : '') : '0 votos'}</span>
+            </button>
+        `;
+    }).join('');
+
+    document.getElementById('modal-overlay').classList.add('active');
+}
+
+// ── Fecha modal ──
+function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('active');
+}
+
+document.getElementById('modal-overlay').addEventListener('click', function (e) {
+    if (e.target === this) { closeModal(); }
+});
+
+// ── Seleciona modo → passo 2 (gear) ──
+function selectMode(mapName, modeCode) {
+    const mode = MODES.find(m => m.code === modeCode);
+    document.getElementById('modal-modes').style.display = 'none';
+    const gearStep = document.getElementById('modal-gear-step');
+    gearStep.style.display = '';
+
+    const gearOptions = [
+        { suffix: '',        label: 'Normal',       desc: 'Todas as armas' },
+        { suffix: '_SNIPER', label: 'Só Sniper',    desc: 'g_gear FGHIJKLMacefghjklOQRSTUVWX' },
+        { suffix: '_PISTOL', label: 'Só Pistolas',  desc: 'g_gear HIJKLMNZacehijkOQRSTUVX' },
+    ];
+
+    gearStep.innerHTML =
+        `<div class="gear-header-bar">
+            <button class="back-btn" onclick="backToModes('${mapName}')">← Voltar</button>
+            <span class="gear-mode-title">${mode.name} (${modeCode})</span>
+        </div>
+        <div class="modal-modes">
+            ${gearOptions.map(g => {
+                const key   = modeCode + g.suffix;
+                const count = (votes[mapName] || {})[key] || 0;
+                return `<button class="modal-mode-btn" onclick="vote('${mapName}', '${key}')">
+                    <span class="code">${g.label}</span>
+                    <span class="desc">${g.desc}</span>
+                    <span class="vote-pill">${count} voto${count !== 1 ? 's' : ''}</span>
+                </button>`;
+            }).join('')}
+        </div>`;
+}
+
+function backToModes(mapName) {
+    document.getElementById('modal-gear-step').style.display = 'none';
+    document.getElementById('modal-gear-step').innerHTML = '';
+    document.getElementById('modal-modes').style.display = '';
+}
+
+// ── Formata chave de voto para exibição ──
+function formatVoteKey(key) {
+    if (key.endsWith('_SNIPER')) return key.replace('_SNIPER', '') + '+SNP';
+    if (key.endsWith('_PISTOL')) return key.replace('_PISTOL', '') + '+PST';
+    return key;
+}
+
+// ── Registra voto ──
+async function vote(mapName, modeCode) {
+    closeModal();
+    votes[mapName][modeCode] = (votes[mapName][modeCode] || 0) + 1;
+
+    updateMapCard(mapName);
+    updateModesReference();
+    showToast(`✔ ${formatVoteKey(modeCode)} — ${mapName}`);
+
+    // Persiste no servidor
+    try {
+        const res  = await fetch('/vote', {
+            method:  'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body:    JSON.stringify({ map: mapName, mode: modeCode }),
+        });
+        if (!res.ok) { throw new Error('status ' + res.status); }
+    } catch (e) {
+        console.error('Erro ao salvar voto:', e);
+        showToast('⚠️ Erro ao salvar voto no servidor');
+    }
+}
+
+// ── Atualiza card do mapa ──
+function updateMapCard(mapName) {
+    const sorted = Object.entries(votes[mapName]).sort((a, b) => b[1] - a[1]);
+    const div = document.getElementById('votes-' + mapName);
+
+    if (sorted.length === 0) {
+        div.innerHTML = '<span style="color:#444">Sem votos ainda</span>';
+        return;
+    }
+
+    div.innerHTML = sorted.slice(0, 3).map(([code, n], i) =>
+        i === 0
+            ? `<span class="top-mode">🔥 ${formatVoteKey(code)} (${n})</span>`
+            : `<span>${formatVoteKey(code)} (${n})</span>`
+    ).join(' · ');
+}
+
+// ── Atualiza totais na referência de modos ──
+function updateModesReference() {
+    MODES.forEach(m => {
+        const total = Object.values(votes).reduce((s, mv) => {
+            return s + Object.entries(mv).reduce((ss, [k, v]) =>
+                ss + (k === m.code || k.startsWith(m.code + '_') ? v : 0), 0);
+        }, 0);
+        const el = document.getElementById('ref-' + m.code);
+        if (el) { el.textContent = total > 0 ? `${total} voto${total !== 1 ? 's' : ''}` : ''; }
+    });
+}
+
+// ── Toast ──
+function showToast(msg) {
+    const toast = document.getElementById('toast');
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
+}
+
+// ── Mapeamento modo → g_gametype (conforme plano de modos) ──
+const GAMETYPE = {
+    LMS:    1,
+    FFA:    2,
+    TDM:    3,
+    TS:     4,
+    FTL:    5,
+    CNH:    6,
+    CTF:    7,
+    BM:     8,
+    JUMP:   9,
+    FT:    10,
+    GUN:   11,
+};
+
+// Modos em equipe que exigem g_friendlyFire 0
+const TEAM_MODES = new Set(['TDM', 'TS', 'FTL', 'CNH', 'CTF', 'BM', 'FT']);
+
+function getGear(key) {
+    if (key.endsWith('_SNIPER')) return 'FGHIJKLMacefghjklOQRSTUVWX';
+    if (key.endsWith('_PISTOL')) return 'HIJKLMNZacehijkOQRSTUVX';
+    return '0';
+}
+
+// ── Gera e baixa mapcycle.txt com os 7 pares (mapa+modo) mais votados ──
+function gerarMapcycle() {
+    const entries = [];
+    Object.entries(votes).forEach(([mapName, modes]) => {
+        Object.entries(modes).forEach(([mode, count]) => {
+            if (count > 0 && GAMETYPE[mode.split('_')[0]] !== undefined) {
+                entries.push([mapName, mode, count]);
+            }
+        });
+    });
+
+    if (entries.length === 0) {
+        showToast('⚠️ Nenhum voto registrado ainda');
+        return;
+    }
+
+    entries.sort((a, b) => b[2] - a[2] || a[0].localeCompare(b[0]) || a[1].localeCompare(b[1]));
+
+    const top7 = entries.slice(0, 7);
+
+    const blocks = top7.map(([mapName, mode]) => {
+        const base     = mode.split('_')[0];
+        const filename = 'ut4_' + mapName.toLowerCase();
+        const gametype = GAMETYPE[base];
+        const teamMode = TEAM_MODES.has(base);
+        const gear     = getGear(mode);
+        let block = `${filename}\n{\n    g_gametype ${gametype}\n`;
+        if (teamMode) block += `    g_friendlyFire 0\n`;
+        block += `    roundlimit 5\n    g_gear ${gear}\n}`;
+        return block;
+    });
+
+    const content = blocks.join('\n\n');
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = 'mapcycle.txt';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('📄 mapcycle.txt gerado com Top 7!');
+}
+
+// ── Zera votação ──
+async function zerarVotacao() {
+    if (!confirm('Tem certeza que deseja zerar todos os votos?')) return;
+    try {
+        const res = await fetch('/reset', { method: 'POST' });
+        if (!res.ok) throw new Error('status ' + res.status);
+        MAPS.forEach(m => { votes[m.name] = {}; });
+        MAPS.forEach(m => updateMapCard(m.name));
+        updateModesReference();
+        showToast('🗑️ Votos zerados!');
+    } catch (e) {
+        console.error('Erro ao zerar votos:', e);
+        showToast('⚠️ Erro ao zerar votos no servidor');
+    }
+}
+
+// ── Init ──
+renderModesReference();
+renderMapsGrid();
+carregarVotos();
+</script>
+</body>
+</html>
+

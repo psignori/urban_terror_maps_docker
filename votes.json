@@ -1,0 +1,18 @@
+{
+  "Docks": {
+    "TDM_SNIPER": 1
+  },
+  "Kingpin": {
+    "TS_PISTOL": 1
+  },
+  "Thingley": {
+    "TS": 1
+  },
+  "Abbey": {
+    "BM": 1,
+    "TDM_PISTOL": 1
+  },
+  "Suburbs": {
+    "FFA": 1
+  }
+}
