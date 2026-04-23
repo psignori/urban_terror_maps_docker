@@ -1,0 +1,61 @@
+ut4_riyadh
+{
+    g_gametype 2
+    roundlimit 5
+    g_gear FGHIJKLMacefghjklOQRSTUVWX
+}
+
+ut4_oildepot
+{
+   g_gametype 3
+   g_friendlyFire 0
+   roundlimit 5
+   g_gear 0
+}
+
+ut4_suburbs
+{
+    g_gametype 9
+    roundlimit 5
+    g_gear 0
+}
+
+ut4_docks
+{
+    g_gametype 2
+    roundlimit 5
+    g_gear HIJKLMNZacehijkOQRSTUVX
+}
+
+
+ut4_turnpike
+{
+    g_gametype 11
+    roundlimit 5
+    g_gear 0
+}
+
+ut4_casa
+{
+    g_gametype 8
+    g_friendlyFire 0
+    roundlimit 5
+    g_gear 0
+}
+
+ut4_abbey
+{
+    g_gametype 4
+    g_friendlyFire 0
+    roundlimit 5
+    g_gear 0
+}
+
+ut4_mykonos
+{
+    g_gametype 6
+    g_friendlyFire 0
+    roundlimit 5
+    g_gear 0
+}
+

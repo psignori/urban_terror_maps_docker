@@ -1,0 +1,809 @@
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\1\g_matchmode\0\g_gametype\0\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\0\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_riyadh\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\FGHIJKLMacefghjklOQRSTUVWX\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_stratTime\0\auth\0\auth_status\init\g_modversion\4.3.4
+  0:00 InitAuth: \auth\0\auth_status\init\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:35 Session data initialised for client on slot 0 at 35288
+  0:35 ClientConnect: 0
+  0:35 ClientUserinfo: 0 \ip\192.168.128.86:27960\challenge\-544664227\qport\753\protocol\68\snaps\20\name\Braun\rate\25000\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A
+  0:35 ClientUserinfoChanged: 0 n\Braun\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:35 AccountValidated: 0 -  - 0 - "0"
+  0:35 ClientUserinfo: 0 \ip\192.168.128.86:27960\name\Braun\challenge\-544664227\qport\753\protocol\68\snaps\20\rate\25000\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A
+  0:35 ClientUserinfoChanged: 0 n\Braun\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:38 Session data initialised for client on slot 0 at 37876
+  0:38 ClientConnect: 1
+  0:38 ClientUserinfo: 1 \ip\192.168.128.84:27961\challenge\-946172149\qport\166\protocol\68\snaps\20\name\</>\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883
+  0:38 ClientUserinfoChanged: 1 n\</>\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:38 AccountValidated: 1 -  - 0 - "0"
+  0:38 ClientUserinfo: 1 \ip\192.168.128.84:27961\name\</>\challenge\-946172149\qport\166\protocol\68\snaps\20\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883
+  0:38 ClientUserinfoChanged: 1 n\</>\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:39 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fkHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:39 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:39 ClientSpawn: 0
+  0:39 ClientBegin: 0
+  0:42 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fZHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:42 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:43 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:43 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:46 ClientUserinfo: 1 \ip\192.168.128.84:27961\snaps\20\name\</>\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:46 ClientUserinfoChanged: 1 n\</>\t\0\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:46 ClientSpawn: 1
+  0:46 ClientBegin: 1
+  0:56 Session data initialised for client on slot 0 at 55902
+  0:56 ClientConnect: 2
+  0:56 ClientUserinfo: 2 \ip\192.168.128.104:27960\challenge\104236577\qport\980\protocol\68\snaps\20\name\achei facil\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3
+  0:56 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:56 AccountValidated: 2 -  - 0 - "0"
+  0:56 ClientUserinfo: 2 \ip\192.168.128.104:27960\name\acheifacil\challenge\104236577\qport\980\protocol\68\snaps\20\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3
+  0:56 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  1:03 ClientUserinfo: 2 \ip\192.168.128.104:27960\snaps\20\name\achei facil\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  1:03 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  1:03 ClientSpawn: 2
+  1:03 ClientBegin: 2
+  1:03 Kill: 0 1 21: Braun killed </> by UT_MOD_PSG1
+  1:05 ClientSpawn: 1
+  1:05 ClientUserinfo: 2 \ip\192.168.128.104:27960\snaps\20\name\achei facil\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  1:05 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  1:14 Item: 2 ut_weapon_sr8
+  1:17 Kill: 0 2 21: Braun killed acheifacil by UT_MOD_PSG1
+  1:19 ClientSpawn: 2
+  1:27 Kill: 1 0 28: </> killed Braun by UT_MOD_SR8
+  1:29 Kill: 2 1 28: acheifacil killed </> by UT_MOD_SR8
+  1:29 ClientSpawn: 0
+  1:31 ClientSpawn: 1
+  1:33 Kill: 0 2 21: Braun killed acheifacil by UT_MOD_PSG1
+  1:35 ClientSpawn: 2
+  1:53 Kill: 1 0 28: </> killed Braun by UT_MOD_SR8
+  1:55 ClientSpawn: 0
+  2:06 Kill: 0 1 21: Braun killed </> by UT_MOD_PSG1
+  2:09 ClientSpawn: 1
+  2:27 Kill: 0 2 21: Braun killed acheifacil by UT_MOD_PSG1
+  2:29 ClientSpawn: 2
+  2:38 Kill: 2 1 28: acheifacil killed </> by UT_MOD_SR8
+  2:40 ClientSpawn: 1
+  2:49 Item: 1 ut_weapon_sr8
+  3:13 Kill: 0 1 12: Braun killed </> by UT_MOD_KNIFE
+  3:15 ClientSpawn: 1
+  3:31 Session data initialised for client on slot 0 at 211290
+  3:31 ClientConnect: 3
+  3:31 ClientUserinfo: 3 \ip\192.168.128.102:27960\challenge\-1078231432\qport\371\protocol\68\snaps\20\name\Coquinha Zer0\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E
+  3:31 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  3:31 AccountValidated: 3 -  - 0 - "0"
+  3:31 ClientUserinfo: 3 \ip\192.168.128.102:27960\name\CoquinhaZer0\challenge\-1078231432\qport\371\protocol\68\snaps\20\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E
+  3:31 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  3:38 ClientUserinfo: 3 \ip\192.168.128.102:27960\snaps\20\name\Coquinha Zer0\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  3:38 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  3:38 ClientSpawn: 3
+  3:38 ClientBegin: 3
+  3:54 Kill: 0 2 21: Braun killed acheifacil by UT_MOD_PSG1
+  3:56 ClientSpawn: 2
+  4:22 Kill: 1 0 12: </> killed Braun by UT_MOD_KNIFE
+  4:24 ClientSpawn: 0
+  4:29 Kill: 3 2 21: CoquinhaZer0 killed acheifacil by UT_MOD_PSG1
+  4:31 ClientSpawn: 2
+  4:33 Kill: 1 2 28: </> killed acheifacil by UT_MOD_SR8
+  4:35 ClientSpawn: 2
+  4:36 Kill: 0 3 21: Braun killed CoquinhaZer0 by UT_MOD_PSG1
+  4:38 ClientSpawn: 3
+  4:52 Kill: 2 0 28: acheifacil killed Braun by UT_MOD_SR8
+  4:54 ClientSpawn: 0
+  5:00 Exit: Timelimit hit.
+  5:00 score: 8  ping: 21  client: 0 Braun
+  5:00 score: 4  ping: 0  client: 1 </>
+  5:00 score: 3  ping: 1  client: 2 acheifacil
+  5:00 score: 1  ping: 0  client: 3 CoquinhaZer0
+  5:00 ClientSpawn: 0
+  5:00 ClientSpawn: 1
+  5:00 ClientSpawn: 2
+  5:00 ClientSpawn: 3
+  5:15 ShutdownGame:
+  5:15 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\11\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\0\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_ramelle\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:00 InitAuth: \auth\1\auth_status\public\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:00 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \ip\192.168.128.84:27961\snaps\20\name\</>\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:00 ClientUserinfoChanged: 1 n\</>\t\0\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \ip\192.168.128.104:27960\snaps\20\name\achei facil\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \ip\192.168.128.102:27960\snaps\20\name\Coquinha Zer0\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:00 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 0 -  - 0 - "0"
+  0:02 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:02 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:02 AccountValidated: 1 -  - 0 - "0"
+  0:02 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:02 ClientUserinfoChanged: 1 n\</>\t\0\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 2 -  - 0 - "0"
+  0:02 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:02 AccountValidated: 3 -  - 0 - "0"
+  0:02 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:02 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:10 ClientSpawn: 0
+  0:10 ClientBegin: 0
+  0:12 ClientSpawn: 1
+  0:12 ClientBegin: 1
+  0:13 ClientSpawn: 3
+  0:13 ClientBegin: 3
+  0:14 ClientSpawn: 2
+  0:14 ClientBegin: 2
+  0:16 Kill: 2 3 36: acheifacil killed CoquinhaZer0 by UT_MOD_NEGEV
+  0:19 ClientSpawn: 3
+  0:20 Kill: 3 0 36: CoquinhaZer0 killed Braun by UT_MOD_NEGEV
+  0:22 ClientSpawn: 0
+  0:26 Kill: 1 0 36: </> killed Braun by UT_MOD_NEGEV
+  0:28 ClientSpawn: 0
+  0:37 Kill: 2 1 20: acheifacil killed </> by UT_MOD_G36
+  0:39 ClientSpawn: 1
+  0:46 Kill: 1 0 20: </> killed Braun by UT_MOD_G36
+  0:48 ClientSpawn: 0
+  0:52 Kill: 0 3 36: Braun killed CoquinhaZer0 by UT_MOD_NEGEV
+  0:54 ClientSpawn: 3
+  0:59 Kill: 0 2 20: Braun killed acheifacil by UT_MOD_G36
+  1:01 ClientSpawn: 2
+  1:03 Kill: 0 3 42: Braun killed CoquinhaZer0 by UT_MOD_FRF1
+  1:05 ClientSpawn: 3
+  1:06 Kill: 2 1 42: acheifacil killed </> by UT_MOD_FRF1
+  1:08 ClientSpawn: 1
+  1:22 Kill: 0 1 12: Braun killed </> by UT_MOD_KNIFE
+  1:24 ClientSpawn: 1
+  1:29 Kill: 3 0 20: CoquinhaZer0 killed Braun by UT_MOD_G36
+  1:31 ClientSpawn: 0
+  1:39 Kill: 1 2 20: </> killed acheifacil by UT_MOD_G36
+  1:41 ClientSpawn: 2
+  1:46 Kill: 0 3 28: Braun killed CoquinhaZer0 by UT_MOD_SR8
+  1:48 ClientSpawn: 3
+  1:49 Kill: 3 1 42: CoquinhaZer0 killed </> by UT_MOD_FRF1
+  1:51 ClientSpawn: 1
+  1:53 Kill: 0 2 12: Braun killed acheifacil by UT_MOD_KNIFE
+  1:55 ClientSpawn: 2
+  1:59 Kill: 3 2 21: CoquinhaZer0 killed acheifacil by UT_MOD_PSG1
+  2:01 ClientSpawn: 2
+  2:04 Kill: 0 2 38: Braun killed acheifacil by UT_MOD_M4
+  2:06 ClientSpawn: 2
+  2:08 Kill: 3 1 28: CoquinhaZer0 killed </> by UT_MOD_SR8
+  2:10 ClientSpawn: 1
+  2:19 Kill: 3 2 19: CoquinhaZer0 killed acheifacil by UT_MOD_LR300
+  2:21 ClientSpawn: 2
+  2:32 Kill: 0 2 30: Braun killed acheifacil by UT_MOD_AK103
+  2:33 Kill: 3 0 38: CoquinhaZer0 killed Braun by UT_MOD_M4
+  2:34 ClientSpawn: 2
+  2:35 ClientSpawn: 0
+  2:44 Kill: 0 2 23: Braun killed acheifacil by UT_MOD_BLED
+  2:46 ClientSpawn: 2
+  3:09 Kill: 2 0 42: acheifacil killed Braun by UT_MOD_FRF1
+  3:11 ClientSpawn: 0
+  3:20 Kill: 0 1 44: Braun killed </> by UT_MOD_P90
+  3:22 ClientSpawn: 1
+  3:24 Kill: 3 2 30: CoquinhaZer0 killed acheifacil by UT_MOD_AK103
+  3:26 ClientSpawn: 2
+  3:40 Kill: 2 3 21: acheifacil killed CoquinhaZer0 by UT_MOD_PSG1
+  3:42 ClientSpawn: 3
+  4:18 Kill: 3 1 41: CoquinhaZer0 killed </> by UT_MOD_MAC11
+  4:20 ClientSpawn: 1
+  4:30 Kill: 2 0 28: acheifacil killed Braun by UT_MOD_SR8
+  4:32 ClientSpawn: 0
+  4:44 Kill: 2 1 19: acheifacil killed </> by UT_MOD_LR300
+  4:46 ClientSpawn: 1
+  4:56 Kill: 3 0 44: CoquinhaZer0 killed Braun by UT_MOD_P90
+  4:57 Kill: 0 3 23: Braun killed CoquinhaZer0 by UT_MOD_BLED
+  4:59 ClientSpawn: 0
+  4:59 ClientSpawn: 3
+  5:00 Exit: Timelimit hit.
+  5:00 score: 11  ping: 25  client: 0 Braun
+  5:00 score: 10  ping: 0  client: 3 CoquinhaZer0
+  5:00 score: 7  ping: 0  client: 2 acheifacil
+  5:00 score: 3  ping: 1  client: 1 </>
+  5:00 ClientSpawn: 0
+  5:00 ClientSpawn: 1
+  5:00 ClientSpawn: 2
+  5:00 ClientSpawn: 3
+  5:15 ShutdownGame:
+  5:15 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\11\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\0\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_turnpike\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\1\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:00 InitAuth: \auth\1\auth_status\public\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:00 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:00 ClientUserinfoChanged: 1 n\</>\t\0\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:00 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 0 -  - 0 - "0"
+  0:02 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000000000200000000
+  0:02 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:02 AccountValidated: 1 -  - 0 - "0"
+  0:02 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:02 ClientUserinfoChanged: 1 n\</>\t\0\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 2 -  - 0 - "0"
+  0:02 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 2 n\acheifacil\t\0\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:02 AccountValidated: 3 -  - 0 - "0"
+  0:02 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:02 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\0\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:08 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000002000200000000
+  0:08 ClientUserinfoChanged: 0 n\Braun\t\0\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:08 ClientSpawn: 0
+  0:08 ClientBegin: 0
+  0:10 ClientSpawn: 1
+  0:10 ClientBegin: 1
+  0:10 ClientSpawn: 3
+  0:10 ClientBegin: 3
+  0:10 ClientSpawn: 2
+  0:10 ClientBegin: 2
+  0:14 Kill: 3 1 23: CoquinhaZer0 killed </> by UT_MOD_BLED
+  0:16 ClientSpawn: 1
+  0:21 Kill: 2 3 36: acheifacil killed CoquinhaZer0 by UT_MOD_NEGEV
+  0:22 Kill: 2 0 23: acheifacil killed Braun by UT_MOD_BLED
+  0:23 ClientSpawn: 3
+  0:24 ClientSpawn: 0
+  0:26 Kill: 0 3 36: Braun killed CoquinhaZer0 by UT_MOD_NEGEV
+  0:28 ClientSpawn: 3
+  0:30 Kill: 1 2 36: </> killed acheifacil by UT_MOD_NEGEV
+  0:32 ClientSpawn: 2
+  0:36 Kill: 0 2 20: Braun killed acheifacil by UT_MOD_G36
+  0:38 ClientSpawn: 2
+  0:40 Kill: 2 3 42: acheifacil killed CoquinhaZer0 by UT_MOD_FRF1
+  0:42 ClientSpawn: 3
+  0:52 Kill: 0 2 42: Braun killed acheifacil by UT_MOD_FRF1
+  0:54 ClientSpawn: 2
+  1:00 Kill: 2 0 21: acheifacil killed Braun by UT_MOD_PSG1
+  1:02 ClientSpawn: 0
+  1:29 Kill: 2 3 28: acheifacil killed CoquinhaZer0 by UT_MOD_SR8
+  1:31 ClientSpawn: 3
+  1:34 Kill: 3 0 20: CoquinhaZer0 killed Braun by UT_MOD_G36
+  1:36 ClientSpawn: 0
+  1:38 Kill: 2 1 19: acheifacil killed </> by UT_MOD_LR300
+  1:40 ClientSpawn: 1
+  1:42 Kill: 2 0 38: acheifacil killed Braun by UT_MOD_M4
+  1:45 ClientSpawn: 0
+  1:46 Kill: 3 2 42: CoquinhaZer0 killed acheifacil by UT_MOD_FRF1
+  1:47 Kill: 0 1 21: Braun killed </> by UT_MOD_PSG1
+  1:48 ClientSpawn: 2
+  1:49 ClientSpawn: 1
+  2:06 Kill: 3 0 21: CoquinhaZer0 killed Braun by UT_MOD_PSG1
+  2:08 ClientSpawn: 0
+  2:17 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  2:19 ClientSpawn: 0
+  2:24 Kill: 3 0 28: CoquinhaZer0 killed Braun by UT_MOD_SR8
+  2:26 ClientSpawn: 0
+  2:38 Kill: 3 0 19: CoquinhaZer0 killed Braun by UT_MOD_LR300
+  2:40 Kill: 2 1 41: acheifacil killed </> by UT_MOD_MAC11
+  2:40 ClientSpawn: 0
+  2:42 ClientSpawn: 1
+  2:45 Kill: 3 0 38: CoquinhaZer0 killed Braun by UT_MOD_M4
+  2:47 ClientSpawn: 0
+  2:52 Kill: 2 3 44: acheifacil killed CoquinhaZer0 by UT_MOD_P90
+  2:54 ClientSpawn: 3
+  2:56 Kill: 3 1 30: CoquinhaZer0 killed </> by UT_MOD_AK103
+  2:58 ClientSpawn: 1
+  2:58 Kill: 0 3 28: Braun killed CoquinhaZer0 by UT_MOD_SR8
+  3:00 ClientSpawn: 3
+  3:08 Kill: 2 1 17: acheifacil killed </> by UT_MOD_UMP45
+  3:10 ClientSpawn: 1
+  3:13 Kill: 1 3 20: </> killed CoquinhaZer0 by UT_MOD_G36
+  3:14 Kill: 0 2 19: Braun killed acheifacil by UT_MOD_LR300
+  3:15 ClientSpawn: 3
+  3:16 ClientSpawn: 2
+  3:32 Kill: 2 0 23: acheifacil killed Braun by UT_MOD_BLED
+  3:34 ClientSpawn: 0
+  3:44 Kill: 0 1 38: Braun killed </> by UT_MOD_M4
+  3:46 ClientSpawn: 1
+  3:47 Kill: 0 2 30: Braun killed acheifacil by UT_MOD_AK103
+  3:49 ClientSpawn: 2
+  4:01 Kill: 2 1 12: acheifacil killed </> by UT_MOD_KNIFE
+  4:01 Kill: 0 3 41: Braun killed CoquinhaZer0 by UT_MOD_MAC11
+  4:03 ClientSpawn: 1
+  4:03 ClientSpawn: 3
+  4:06 Kill: 0 2 44: Braun killed acheifacil by UT_MOD_P90
+  4:07 Kill: 1 0 20: </> killed Braun by UT_MOD_G36
+  4:08 ClientSpawn: 2
+  4:09 ClientSpawn: 0
+  4:10 Kill: 2 0 43: acheifacil killed Braun by UT_MOD_BENELLI
+  4:12 ClientSpawn: 0
+  4:14 Kill: 3 1 41: CoquinhaZer0 killed </> by UT_MOD_MAC11
+  4:16 ClientSpawn: 1
+  4:22 Kill: 2 1 15: acheifacil killed </> by UT_MOD_DEAGLE
+  4:24 ClientSpawn: 1
+  4:27 Kill: 0 1 17: Braun killed </> by UT_MOD_UMP45
+  4:29 ClientSpawn: 1
+  4:31 Kill: 0 2 18: Braun killed acheifacil by UT_MOD_MP5K
+  4:33 ClientSpawn: 2
+  4:41 Kill: 0 3 16: Braun killed CoquinhaZer0 by UT_MOD_SPAS
+  4:43 ClientSpawn: 3
+  4:55 Kill: 2 1 40: acheifacil killed </> by UT_MOD_COLT1911
+  4:57 ClientSpawn: 1
+  5:00 Exit: Timelimit hit.
+  5:00 score: 16  ping: 0  client: 2 acheifacil
+  5:00 score: 13  ping: 28  client: 0 Braun
+  5:00 score: 9  ping: 0  client: 3 CoquinhaZer0
+  5:00 score: 3  ping: 0  client: 1 </>
+  5:00 ClientSpawn: 0
+  5:00 ClientSpawn: 1
+  5:00 ClientSpawn: 2
+  5:00 ClientSpawn: 3
+  5:15 ShutdownGame:
+  5:15 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:00 Warmup:
+  0:00 InitAuth: \auth\1\auth_status\public\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 0 n\Braun\t\3\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:00 ClientUserinfoChanged: 1 n\</>\t\3\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 2 n\acheifacil\t\3\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:00 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\3\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 0 -  - 0 - "0"
+  0:02 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 0 n\Braun\t\3\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:02 AccountValidated: 1 -  - 0 - "0"
+  0:02 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:02 ClientUserinfoChanged: 1 n\</>\t\3\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 2 -  - 0 - "0"
+  0:02 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 2 n\acheifacil\t\3\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:02 AccountValidated: 3 -  - 0 - "0"
+  0:02 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:02 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\3\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:08 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:08 ClientUserinfoChanged: 0 n\Braun\t\3\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:08 ClientBegin: 0
+  0:10 ClientBegin: 1
+  0:11 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:11 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:11 ClientBegin: 0
+  0:11 ClientSpawn: 0
+  0:11 ClientBegin: 3
+  0:11 ClientBegin: 2
+  0:11 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:11 ClientUserinfoChanged: 1 n\</>\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:11 ClientBegin: 1
+  0:12 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:12 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:12 ClientBegin: 3
+  0:12 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lZIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:12 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:12 ClientBegin: 2
+  0:14 ClientUserinfo: 1 \ip\192.168.128.84:27961\snaps\20\name\</>\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:14 ClientUserinfoChanged: 1 n\</>\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:15 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\faHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:15 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:16 ClientUserinfo: 2 \ip\192.168.128.104:27960\snaps\20\name\achei facil\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:16 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:25 ------------------------------------------------------------
+  0:25 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:25 ClientSpawn: 0
+  0:25 ClientSpawn: 1
+  0:25 ClientSpawn: 2
+  0:25 ClientSpawn: 3
+  0:34 Kill: 1 1 10: </> killed </> by MOD_CHANGE_TEAM
+  0:34 ClientUserinfo: 1 \ip\192.168.128.84:27961\snaps\20\name\</>\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:34 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:34 ClientBegin: 1
+  0:54 Kill: 0 3 30: Braun killed CoquinhaZer0 by UT_MOD_AK103
+  1:12 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  1:12 Assist: 3 2 0: CoquinhaZer0 assisted acheifacil to kill Braun
+  1:12 SurvivorWinner: Blue
+  1:17 ------------------------------------------------------------
+  1:17 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  1:17 ClientSpawn: 0
+  1:17 ClientSpawn: 1
+  1:17 ClientSpawn: 2
+  1:17 ClientSpawn: 3
+  1:41 Kill: 3 0 21: CoquinhaZer0 killed Braun by UT_MOD_PSG1
+  2:07 Kill: 3 1 44: CoquinhaZer0 killed </> by UT_MOD_P90
+  2:07 SurvivorWinner: Blue
+  2:12 ------------------------------------------------------------
+  2:12 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  2:12 ClientSpawn: 0
+  2:12 ClientSpawn: 1
+  2:12 ClientSpawn: 2
+  2:12 ClientSpawn: 3
+  2:30 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  2:33 Kill: 2 1 30: acheifacil killed </> by UT_MOD_AK103
+  2:33 SurvivorWinner: Blue
+  2:38 ------------------------------------------------------------
+  2:38 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  2:38 ClientSpawn: 0
+  2:38 ClientSpawn: 1
+  2:38 ClientSpawn: 2
+  2:38 ClientSpawn: 3
+  2:56 Kill: 0 2 16: Braun killed acheifacil by UT_MOD_SPAS
+  3:39 Kill: 1 3 30: </> killed CoquinhaZer0 by UT_MOD_AK103
+  3:39 SurvivorWinner: Red
+  3:44 ------------------------------------------------------------
+  3:44 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  3:44 ClientSpawn: 0
+  3:44 ClientSpawn: 1
+  3:44 ClientSpawn: 2
+  3:44 ClientSpawn: 3
+  4:19 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  4:21 Kill: 1 2 30: </> killed acheifacil by UT_MOD_AK103
+  4:21 Assist: 0 1 2: Braun assisted </> to kill acheifacil
+  5:07 Item: 1 ut_weapon_magnum
+  5:25 Kill: 3 1 21: CoquinhaZer0 killed </> by UT_MOD_PSG1
+  5:25 SurvivorWinner: Blue
+  5:25 Exit: Timelimit hit.
+  5:25 red:1  blue:4
+  5:25 score: 4  ping: 1  client: 2 acheifacil
+  5:25 score: 3  ping: 1  client: 3 CoquinhaZer0
+  5:25 score: 2  ping: 0  client: 1 </>
+  5:25 score: 2  ping: 0  client: 0 Braun
+  5:26 ClientSpawn: 0
+  5:26 ClientSpawn: 1
+  5:26 ClientSpawn: 2
+  5:26 ClientSpawn: 3
+  5:41 ------------------------------------------------------------
+  5:41 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_casa\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  5:41 ShutdownGame:
+  5:41 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:00 Warmup:
+  0:00 InitAuth: \auth\1\auth_status\public\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\faHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:00 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \ip\192.168.128.84:27961\snaps\20\name\</>\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:00 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \ip\192.168.128.104:27960\snaps\20\name\achei facil\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:00 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 0 -  - 0 - "0"
+  0:02 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\faHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:02 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:02 AccountValidated: 1 -  - 0 - "0"
+  0:02 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:02 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 2 -  - 0 - "0"
+  0:02 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:02 AccountValidated: 3 -  - 0 - "0"
+  0:02 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:02 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:08 ClientSpawn: 0
+  0:08 ClientBegin: 0
+  0:09 ClientSpawn: 1
+  0:09 ClientBegin: 1
+  0:10 ClientSpawn: 2
+  0:10 ClientBegin: 2
+  0:10 ClientSpawn: 3
+  0:10 ClientBegin: 3
+  0:24 ------------------------------------------------------------
+  0:24 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:24 ClientSpawn: 0
+  0:24 ClientSpawn: 1
+  0:24 ClientSpawn: 2
+  0:24 ClientSpawn: 3
+  0:42 Kill: 3 0 21: CoquinhaZer0 killed Braun by UT_MOD_PSG1
+  1:03 Kill: 1 2 30: </> killed acheifacil by UT_MOD_AK103
+  2:11 Kill: 1 3 30: </> killed CoquinhaZer0 by UT_MOD_AK103
+  2:11 SurvivorWinner: Red
+  2:16 ------------------------------------------------------------
+  2:16 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  2:16 ClientSpawn: 0
+  2:16 ClientSpawn: 1
+  2:16 ClientSpawn: 2
+  2:16 ClientSpawn: 3
+  2:59 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  3:11 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fMHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  3:11 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  3:27 Kill: 3 1 44: CoquinhaZer0 killed </> by UT_MOD_P90
+  3:27 Assist: 2 3 1: acheifacil assisted CoquinhaZer0 to kill </>
+  3:27 SurvivorWinner: Blue
+  3:32 ------------------------------------------------------------
+  3:32 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  3:32 ClientSpawn: 0
+  3:32 ClientSpawn: 1
+  3:32 ClientSpawn: 2
+  3:32 ClientSpawn: 3
+  3:58 Kill: 0 2 16: Braun killed acheifacil by UT_MOD_SPAS
+  3:58 Session data initialised for client on slot 0 at 1526561
+  3:58 ClientConnect: 4
+  3:58 ClientUserinfo: 4 \ip\192.168.128.68:27960\challenge\-805210900\qport\628\protocol\68\snaps\20\name\j4nj3n2j3n432\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A
+  3:58 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  3:59 AccountValidated: 4 -  - 0 - "0"
+  3:59 ClientUserinfo: 4 \ip\192.168.128.68:27960\name\j4nj3n2j3n432\challenge\-805210900\qport\628\protocol\68\snaps\20\rate\25000\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A
+  3:59 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  3:59 Kill: 3 0 44: CoquinhaZer0 killed Braun by UT_MOD_P90
+  3:59 Assist: 2 3 0: acheifacil assisted CoquinhaZer0 to kill Braun
+  4:04 Kill: 1 3 30: </> killed CoquinhaZer0 by UT_MOD_AK103
+  4:04 SurvivorWinner: Red
+  4:06 ClientUserinfo: 4 \ip\192.168.128.68:27960\snaps\20\name\j4nj3n2j3n432\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laAOURA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  4:06 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\3\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  4:06 ClientBegin: 4
+  4:08 ClientUserinfo: 4 \ip\192.168.128.68:27960\snaps\20\name\j4nj3n2j3n432\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laAOURA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  4:08 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\2\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  4:08 ClientBegin: 4
+  4:09 ------------------------------------------------------------
+  4:09 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  4:09 ClientSpawn: 0
+  4:09 ClientSpawn: 1
+  4:09 ClientSpawn: 2
+  4:09 ClientSpawn: 3
+  4:09 ClientSpawn: 4
+  4:24 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  4:37 Kill: 2 1 30: acheifacil killed </> by UT_MOD_AK103
+  4:37 SurvivorWinner: Blue
+  4:40 Item: 2 ut_weapon_magnum
+  4:40 Item: 2 ut_weapon_ak103
+  4:42 ------------------------------------------------------------
+  4:42 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  4:42 ClientSpawn: 0
+  4:42 ClientSpawn: 1
+  4:42 ClientSpawn: 2
+  4:42 ClientSpawn: 3
+  4:42 ClientSpawn: 4
+  4:53 Kill: 0 2 20: Braun killed acheifacil by UT_MOD_G36
+  5:11 Kill: 4 0 30: j4nj3n2j3n432 killed Braun by UT_MOD_AK103
+  6:03 Kill: 1022 4 6: <world> killed j4nj3n2j3n432 by MOD_FALLING
+  6:09 Kill: 3 1 44: CoquinhaZer0 killed </> by UT_MOD_P90
+  6:09 Assist: 4 3 1: j4nj3n2j3n432 assisted CoquinhaZer0 to kill </>
+  6:09 SurvivorWinner: Blue
+  6:09 Exit: Timelimit hit.
+  6:09 red:2  blue:3
+  6:09 score: 4  ping: 0  client: 3 CoquinhaZer0
+  6:09 score: 3  ping: 0  client: 2 acheifacil
+  6:09 score: 3  ping: 1  client: 1 </>
+  6:09 score: 2  ping: 1  client: 0 Braun
+  6:09 score: 0  ping: 0  client: 4 j4nj3n2j3n432
+  6:10 ClientSpawn: 0
+  6:10 ClientSpawn: 1
+  6:10 ClientSpawn: 2
+  6:10 ClientSpawn: 3
+  6:10 ClientSpawn: 4
+  6:25 ------------------------------------------------------------
+  6:25 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_abbey\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  6:25 ShutdownGame:
+  6:25 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:00 Warmup:
+  0:00 InitAuth: \auth\1\auth_status\public\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fMHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:00 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:00 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:00 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfo: 4 \ip\192.168.128.68:27960\snaps\20\name\j4nj3n2j3n432\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laAOURA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\2\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 0 -  - 0 - "0"
+  0:02 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fMHORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:02 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:02 AccountValidated: 1 -  - 0 - "0"
+  0:02 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:02 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 2 -  - 0 - "0"
+  0:02 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:02 AccountValidated: 3 -  - 0 - "0"
+  0:02 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:02 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 4 -  - 0 - "0"
+  0:02 ClientUserinfo: 4 \name\j4nj3n2j3n432\ip\192.168.128.68:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laAOURA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\2\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:07 ClientSpawn: 0
+  0:07 ClientBegin: 0
+  0:09 ClientSpawn: 1
+  0:09 ClientBegin: 1
+  0:10 ClientSpawn: 4
+  0:10 ClientBegin: 4
+  0:10 ClientSpawn: 2
+  0:10 ClientBegin: 2
+  0:10 ClientSpawn: 3
+  0:10 ClientBegin: 3
+  0:24 ------------------------------------------------------------
+  0:24 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:24 ClientSpawn: 0
+  0:24 ClientSpawn: 1
+  0:24 ClientSpawn: 2
+  0:24 ClientSpawn: 3
+  0:24 ClientSpawn: 4
+  1:08 Kill: 1 4 30: </> killed j4nj3n2j3n432 by UT_MOD_AK103
+  1:08 Assist: 0 1 4: Braun assisted </> to kill j4nj3n2j3n432
+  1:23 Kill: 3 0 21: CoquinhaZer0 killed Braun by UT_MOD_PSG1
+  1:34 Kill: 3 1 21: CoquinhaZer0 killed </> by UT_MOD_PSG1
+  1:34 SurvivorWinner: Blue
+  1:36 Item: 2 ut_weapon_magnum
+  1:36 Item: 2 ut_weapon_mp5k
+  1:37 Item: 2 ut_weapon_ak103
+  1:39 ------------------------------------------------------------
+  1:39 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  1:39 ClientSpawn: 0
+  1:39 ClientSpawn: 1
+  1:39 ClientSpawn: 2
+  1:39 ClientSpawn: 3
+  1:39 ClientSpawn: 4
+  1:54 ClientUserinfo: 4 \ip\192.168.128.68:27960\snaps\20\name\j4nj3n2j3n432\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lakOUAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  1:54 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\2\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  2:08 Kill: 3 0 21: CoquinhaZer0 killed Braun by UT_MOD_PSG1
+  2:25 Kill: 4 1 30: j4nj3n2j3n432 killed </> by UT_MOD_AK103
+  2:25 SurvivorWinner: Blue
+  2:27 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNkORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  2:27 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  2:28 Item: 2 ut_weapon_grenade_he
+  2:30 ------------------------------------------------------------
+  2:30 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  2:30 ClientSpawn: 0
+  2:30 ClientSpawn: 1
+  2:30 ClientSpawn: 2
+  2:30 ClientSpawn: 3
+  2:30 ClientSpawn: 4
+  2:48 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  2:56 Kill: 2 1 30: acheifacil killed </> by UT_MOD_AK103
+  2:56 Assist: 3 2 1: CoquinhaZer0 assisted acheifacil to kill </>
+  2:56 Item: 2 ut_weapon_magnum
+  2:56 Item: 2 ut_weapon_mp5k
+  2:56 Item: 2 ut_weapon_ak103
+  2:56 SurvivorWinner: Blue
+  3:01 ------------------------------------------------------------
+  3:01 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  3:01 ClientSpawn: 0
+  3:01 ClientSpawn: 1
+  3:01 ClientSpawn: 2
+  3:01 ClientSpawn: 3
+  3:01 ClientSpawn: 4
+  3:47 Kill: 2 0 30: acheifacil killed Braun by UT_MOD_AK103
+  3:47 Kill: 1 2 30: </> killed acheifacil by UT_MOD_AK103
+  3:47 Assist: 0 1 2: Braun assisted </> to kill acheifacil
+  4:40 Kill: 1 4 30: </> killed j4nj3n2j3n432 by UT_MOD_AK103
+  5:07 Kill: 3 1 44: CoquinhaZer0 killed </> by UT_MOD_P90
+  5:07 SurvivorWinner: Blue
+  5:12 ------------------------------------------------------------
+  5:12 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  5:12 ClientSpawn: 0
+  5:12 ClientSpawn: 1
+  5:12 ClientSpawn: 2
+  5:12 ClientSpawn: 3
+  5:12 ClientSpawn: 4
+  5:24 Kill: 3 0 21: CoquinhaZer0 killed Braun by UT_MOD_PSG1
+  5:24 Kill: 1 4 30: </> killed j4nj3n2j3n432 by UT_MOD_AK103
+  5:24 Assist: 0 1 4: Braun assisted </> to kill j4nj3n2j3n432
+  5:36 Item: 1 ut_weapon_ak103
+  5:38 Kill: 3 1 21: CoquinhaZer0 killed </> by UT_MOD_PSG1
+  5:38 SurvivorWinner: Blue
+  5:38 Exit: Timelimit hit.
+  5:38 red:0  blue:5
+  5:38 score: 6  ping: 1  client: 3 CoquinhaZer0
+  5:38 score: 4  ping: 1  client: 1 </>
+  5:38 score: 3  ping: 6  client: 2 acheifacil
+  5:38 score: 1  ping: 6  client: 4 j4nj3n2j3n432
+  5:38 score: 0  ping: 1  client: 0 Braun
+  5:39 ClientSpawn: 0
+  5:39 ClientSpawn: 1
+  5:39 ClientSpawn: 2
+  5:39 ClientSpawn: 3
+  5:39 ClientSpawn: 4
+  5:54 ------------------------------------------------------------
+  5:54 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_algiers\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  5:54 ShutdownGame:
+  5:54 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_prague\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:00 Warmup:
+  0:00 InitAuth: \auth\1\auth_status\public\auth_cheaters\1\auth_tags\1\auth_notoriety\0\auth_groups\\auth_owners\\auth_verbosity\1
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\192.168.128.86:27960\snaps\20\name\Braun\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNkORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:00 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:00 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:00 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfo: 4 \ip\192.168.128.68:27960\snaps\20\name\j4nj3n2j3n432\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lakOUAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  0:00 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\2\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 0 -  - 0 - "0"
+  0:02 ClientUserinfo: 0 \name\Braun\ip\192.168.128.86:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\fNkORAA\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\34961E866EB3D75EAE25D1913082933A\weapmodes\0100011022000002000200000000
+  0:02 ClientUserinfoChanged: 0 n\Braun\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:02 AccountValidated: 1 -  - 0 - "0"
+  0:02 ClientUserinfo: 1 \name\</>\ip\192.168.128.84:27961\snaps\20\racered\2\raceblue\2\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\FB48E95D2DC1D254821D968E83B60883\weapmodes\0000011122000002000200000000
+  0:02 ClientUserinfoChanged: 1 n\</>\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 2 -  - 0 - "0"
+  0:02 ClientUserinfo: 2 \name\acheifacil\ip\192.168.128.104:27960\snaps\20\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIORAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  0:02 AccountValidated: 3 -  - 0 - "0"
+  0:02 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:02 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:02 AccountValidated: 4 -  - 0 - "0"
+  0:02 ClientUserinfo: 4 \name\j4nj3n2j3n432\ip\192.168.128.68:27960\snaps\20\racered\1\raceblue\1\racefree\1\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\lakOUAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\F7B640CAD9E652E10DD91F9DCB284D7A\weapmodes\0000011022000002000200000000
+  0:02 ClientUserinfoChanged: 4 n\j4nj3n2j3n432\t\2\r\1\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:06 ClientDisconnect: 0
+  0:10 ClientSpawn: 1
+  0:10 ClientBegin: 1
+  0:11 ClientSpawn: 4
+  0:11 ClientBegin: 4
+  0:11 ClientSpawn: 2
+  0:11 ClientBegin: 2
+  0:11 ClientSpawn: 3
+  0:11 ClientBegin: 3
+  0:15 Kill: 3 3 10: CoquinhaZer0 killed CoquinhaZer0 by MOD_CHANGE_TEAM
+  0:15 ClientUserinfo: 3 \name\CoquinhaZer0\ip\192.168.128.102:27960\snaps\20\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GNkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:15 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:15 ClientBegin: 3
+  0:25 ------------------------------------------------------------
+  0:25 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_prague\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:25 ClientSpawn: 1
+  0:25 ClientSpawn: 2
+  0:25 ClientSpawn: 3
+  0:25 ClientSpawn: 4
+  0:25 ClientUserinfo: 3 \ip\192.168.128.102:27960\snaps\20\name\Coquinha Zer0\racered\2\raceblue\2\racefree\2\rate\25000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\cg_ghost\1\cg_autopickup\-1\sex\male\handicap\100\color2\5\color1\4\gear\GMkOUAA\authc\0\cl_guid\1E44A0DE19A79EE1F74B9B5B89E2318E\weapmodes\0000011020000002000210000000
+  0:25 ClientUserinfoChanged: 3 n\CoquinhaZer0\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:46 Kill: 4 3 30: j4nj3n2j3n432 killed CoquinhaZer0 by UT_MOD_AK103
+  0:48 Item: 4 ut_weapon_p90
+  0:50 Kill: 4 1 30: j4nj3n2j3n432 killed </> by UT_MOD_AK103
+  0:50 SurvivorWinner: Blue
+  0:55 ------------------------------------------------------------
+  0:55 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_prague\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  0:55 ClientSpawn: 1
+  0:55 ClientSpawn: 2
+  0:55 ClientSpawn: 3
+  0:55 ClientSpawn: 4
+  1:11 Kill: 3 2 20: CoquinhaZer0 killed acheifacil by UT_MOD_G36
+  1:17 Kill: 4 1 30: j4nj3n2j3n432 killed </> by UT_MOD_AK103
+  1:19 ClientUserinfo: 2 \ip\192.168.128.104:27960\snaps\20\name\achei facil\racered\3\raceblue\3\racefree\0\rate\25000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\cg_ghost\1\cg_autopickup\-1\gear\laIOWAA\sex\male\handicap\100\color2\5\color1\4\authc\0\cl_guid\C94560652A30C6A8426D8526436EEAE3\weapmodes\0000011022000002000200000000
+  1:19 ClientUserinfoChanged: 2 n\acheifacil\t\2\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  1:33 Kill: 4 3 30: j4nj3n2j3n432 killed CoquinhaZer0 by UT_MOD_AK103
+  1:33 SurvivorWinner: Blue
+  1:38 ------------------------------------------------------------
+  1:38 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_prague\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  1:38 ClientSpawn: 1
+  1:38 ClientSpawn: 2
+  1:38 ClientSpawn: 3
+  1:38 ClientSpawn: 4
+  1:48 Kill: 3 4 20: CoquinhaZer0 killed j4nj3n2j3n432 by UT_MOD_G36
+  1:58 Kill: 2 1 30: acheifacil killed </> by UT_MOD_AK103
+  2:32 Kill: 2 3 30: acheifacil killed CoquinhaZer0 by UT_MOD_AK103
+  2:32 SurvivorWinner: Blue
+  2:38 ------------------------------------------------------------
+  2:38 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_prague\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  2:38 ClientSpawn: 1
+  2:38 ClientSpawn: 2
+  2:38 ClientSpawn: 3
+  2:38 ClientSpawn: 4
+  2:41 ClientDisconnect: 3
+  2:43 ClientDisconnect: 2
+  3:20 Kill: 1 4 30: </> killed j4nj3n2j3n432 by UT_MOD_AK103
+  3:20 SurvivorWinner: Red
+  3:25 ------------------------------------------------------------
+  3:25 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\4\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\^1»» ^3Solis ^1««\g_followstrict\1\fraglimit\10\timelimit\5\g_swaproles\0\g_roundtime\3\g_hotpotato\2\g_waverespawns\0\g_redwave\10\g_bluewave\10\g_respawndelay\2\g_suddendeath\0\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871039\g_armbands\0\g_funstuff\1\g_instagib\0\version\ioQ3 1.35 urt 4.3.4 linux-x86_64 Jun  7 2018\protocol\68\mapname\ut4_prague\sv_privateClients\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\3\sv_dlURL\urbanterror.info\g_skins\1\g_gear\0\g_maxGameClients\0\g_deadchat\1\g_walljumps\3\g_stamina\0\gamename\q3urt43\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\1\g_enablePrecip\0\g_stratTime\0\auth\1\auth_status\public\g_modversion\4.3.4
+  3:25 ClientSpawn: 1
+  3:25 ClientSpawn: 4
+  3:27 ClientDisconnect: 1
+  3:27 Warmup:
+  3:30 ClientDisconnect: 4
+  5:02 ShutdownGame:
+  5:02 ------------------------------------------------------------

@@ -1,0 +1,1 @@
+server crashed on seg 20 abr 2026 12:23:31 -03
